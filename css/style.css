@@ -1,0 +1,291 @@
+/* Global properties ======================================================== */
+html {height:100%;}
+html, body {
+	width: 100%; 
+	padding: 0; 
+	margin: 0;
+}
+body { 	 
+	font: 11px/22px Arial, Helvetica, sans-serif;
+	color:rgb(0, 0, 0); /*YAZI RENGİ*/
+	min-width:998px;
+	background: center 0 repeat #ffffff;
+	height:100%;
+}
+.ic {
+	border:0;
+	float:right;
+	background:#fff;
+	color:#f00;
+	width:50%;
+	line-height: 10px;
+	font-size: 10px;
+	margin:-220% 0 0 0;
+	overflow:hidden;
+	padding:0
+}
+.bg { /*ARKAPLAN RENGİNİ BURADAN DEĞİŞTİR*/
+	background: center 0 repeat-y; 
+	width: 100%; 
+	min-height: 100%;
+} 
+
+.main {width:960px; margin:0 auto;}
+/***********************************************************************/
+a {text-decoration:none; cursor:pointer;text-decoration:none; }
+a:hover {text-decoration:none;}
+
+.button {background:#2155CD; display:inline-block; font-size:20px; line-height:25px; color:#fff; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif; padding:9px 30px 10px 30px;}
+.button:hover {background:#112B3C; color: #fff;}
+/*hover: mouse ile üstüne gelince ne olacağını belirler.*/
+
+.button-2 {background:#fff; display:inline-block; font-size:20px; line-height:25px; color:#353535; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif; padding:9px 30px 10px 30px;}
+.button-2:hover {background:#000; color:#fff;}
+
+.link {color:#0fc6ee;}
+.link:hover {text-decoration:underline; }
+
+.clr-1 {color: black;}
+
+.text-1 {font-size:35px; line-height:42px; color:#353535; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif;}
+.text-1>strong { display:block; font-size:25px; line-height:30px; color:#9f9fa6; font-weight:bold; margin-top:-7px;}
+.text-2 {font-size:14px; line-height:22px; color:#000; font-weight:bold;}
+.text-3 {font-size:14px; line-height:22px; color:#e2e2e4; font-weight:bold;}
+
+h2 { font-size:35px; line-height:42px; color:#353535; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif;}
+
+ul {margin:0; padding:0;list-style-image:none;}
+ul.list-1 li {padding:0px 0 8px 15px; font-size:11px; line-height:22px; color:#fff; background:url(../images/marker-1.gif) 0 8px no-repeat;}
+ul.list-1 li a {color:#fff;text-decoration:underline;}
+ul.list-1 li a:hover {text-decoration:none;}
+
+ul.list-2 li {padding:0px 0 8px 15px; font-size:11px; line-height:22px; color:#9f9fa6; background:url(../images/marker-1.gif) 0 8px no-repeat;}
+ul.list-2 li a {color:#9f9fa6;text-decoration:underline;}
+ul.list-2 li a:hover {text-decoration:none;}
+
+/******************************************************************/
+.clear {clear:both; line-height:0; font-size:0; width:100%;}
+.wrapper {width:100%; overflow:hidden; position:relative}
+.wrap {overflow:hidden; position:relative}
+.extra-wrap {overflow:hidden;}
+.fleft {float:left;}
+.fright {float:right;}
+.img-indent {float:left; margin:6px 20px 0px 0;}	
+.img-indent-2 {float:left; margin:0px 20px 0px 0; width: 400px; height: 260px;}	
+.img-indent-3 {float:left; margin:7px 20px 0px 0;}
+.line-height {line-height:18px;}
+.last {margin-right:0px !important; padding-right:0px !important;}
+.align-r {text-align:right;}
+.align-c {text-align:center;}
+
+
+.top-1 {margin-top:23px;}
+.top-2 {margin-top:20px;}
+.top-3 {margin-top:33px;}
+.top-4 {margin-top:27px;}
+
+
+.bot-1 { padding-bottom:63px;}
+.bot-2 { padding-bottom:58px;}
+
+.p1 {margin-bottom:22px;}
+.p2 {margin-bottom:7px;}
+.p3 {margin-bottom:6px;}
+.p4 {margin-bottom:13px;}
+.p5 {margin-bottom:8px;}
+
+/*********************************header*************************************/
+header{width:100%; background: #2D31FA;} /*ÜST MENÜ (NAVBAR) RENGİNİ BURADAN DEĞİŞTİR*/
+
+h1 {display:inline-block; z-index:111; float:left; padding:27px 0 0 21px;}
+header p {float:right; width:230px; overflow:hidden; font:16px/20px Tahoma, Geneva, sans-serif; color:black; padding:27px 0 27px 0; }
+header p>span {display:block; color:#fff; font-size:25px; line-height:30px; margin-top:6px;letter-spacing:-1px; }
+
+/*********************************content*************************************/
+#content { width:960px; margin:0 auto; position:relative;}
+
+.block-1 {
+	background:#ffffff;  /*Anasayfadaki hizmetler bölümü rengini değiştirmek için*/
+	border:#fff 1px solid; /*solid: düz*/
+	margin-top: -12px;
+} 
+
+.block-2 {
+	background:#ffffff; /*Anasayfadaki Müşteri yorumları bölümü rengini değiştirmek için*/
+} 
+
+.pad-1 {padding:39px;}
+.pad-2 {padding:30px 40px 30px 40px;}
+
+.box-1 {overflow:hidden; padding:39px 0 39px 39px;}
+.box-1>div {width:210px; float:left; margin-right:20px;}
+.box-1 .text-1 {margin:10px 0 8px 0;}
+.box-1 .button {margin-top:13px;}
+.box-2 { float:left;  }
+.box-2 h2 {margin-bottom:13px;}
+.box-2>div {padding-bottom:20px;}
+
+.box-2>div>div {
+	position: relative; 
+	padding: 18px 20px 18px 29px; 
+	color:#000; 
+	font-style: italic; 
+	
+}
+
+.box-2>div> a {
+	display:inline-block; 
+	background:url(../images/icon-1.png) 0 0 no-repeat; 
+	color:#9f9fa6; 
+	font-weight:bold;  
+	line-height:21px; 
+	padding-top:3px; 
+	padding-left:30px; 
+	margin-top:10px;
+}
+
+.box-2>div> a:hover {color:#fff;}
+.box-3 {width:420px; float:left;}
+.box-3 h2 {margin-bottom:16px;}
+.box-3 .wrap ul.list-1 {float:left; width:190px; margin-right:40px;}
+.box-3>a {margin-top:25px;}
+.sub-page {
+	background:#e2e2e4; /*HAKKIMIZDA BÖLÜMÜ ARKAPLAN RENGİ*/
+	overflow:hidden; 
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.sub-page-hakkımızda {
+	overflow:hidden; 
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.sub-page-arızatespit {background:#e2e2e4; overflow:hidden; padding: 1rem 2rem;}
+.sub-page-bakımonarım {overflow:hidden; padding: 1rem 2rem;}
+.sub-page-aksesuar {overflow:hidden; padding: 1rem 2rem;}
+.sub-page-ogretici {overflow:hidden; padding: 1rem 2rem;}
+.sub-page-left {border:#fff 1px solid; border-bottom:none; float:left; width:770px; padding:29px 39px 0px 39px;}
+.sub-page-right {background:#1c1c1c; float:right; width:190px; padding:30px 40px 40px 40px; color:#9f9fa6;}
+.sub-page-right h2 {color:#e2e2e4;}
+.box-4 {overflow:hidden; margin:13px 0 23px 0;}
+.box-4 >div {float:left; width:190px; margin-right:20px;}
+.box-4 >div img {margin-bottom:13px;}
+.shadow {position:relative;}
+
+.shadow:after {
+	content:""; 
+	position: absolute; 
+	bottom: 9px; 
+	left:-40px; 
+	background: url(../images/shadow.png) 0 0 no-repeat; 
+	width:270px; 
+	height:21px;
+}
+
+.box-5 img {margin:14px 0 13px 0;}
+.box-5 ul {margin:8px 0 17px 0;}
+.box-6 {overflow:hidden;}
+.box-6 .text-2 {margin:5px 0 1px 0;}
+.box-7 img {margin:13px 0 13px 0;}
+.box-7 ul {margin:8px 0 0px 0;}
+.box-8 img {margin:13px 0 13px 0;}
+.box-9 .text-2 {margin-bottom:1px;}
+.box-9 ul {margin:8px 0 0px 0;}
+
+table {background:#fff; }
+table td, table th {border:#e2e2e4 1px solid; border-collapse:collapse; }
+table th {width:122px; font-weight:bold; text-align:left; padding:15px 10px 8px 20px;}
+table td { padding:9px 10px 8px 20px;}
+table td:first-child {font-weight:bold;}
+
+/**********************AKSESUAR*******************/
+.sec-grid { /*section grid: ızgara bölümü. CSS Grid, bir web sayfasındaki veya uygulamadaki öğelerin iki 
+    boyutlu düzeni için tasarlanmış bir CSS düzeni yöntemidir. */
+
+/*Display özelliği bir HTML elemanı için kullanılan kutu türünü belirtir. Web sayfamızda elemanların ne tür 
+    konumlandırılacağını ve sayfamızda görünüp, görünmeyeceğini belirler. Genel bir tanımlamayla bu özellik, 
+    elemanın hangi eleman gibi davranacağını belirtir.*/
+
+    display: grid; /*CSS Grid, bir web sayfasındaki veya uygulamadaki öğelerin iki boyutlu düzeni için tasarlanmış 
+    bir CSS düzeni yöntemidir. */
+
+    /*grid-template-columns: Grid taşıyıcısı altında element’leri sütun bazında ölçeklendirmeyi sağlar.*/
+    grid-template-columns: 1fr 1fr; /*grid'i template-columns ile 2 fraction'a (fraction (fr): kesir, parça) 
+    ayırıyoruz.*/
+
+    /* fr (Fractional unit)= fr ölçü birimi tanımlandığı alanı ölçeklendirerek birimlere böler. */
+
+    align-items: center; /*align-items: bir kapsayıcının dikey eksende nasıl hizalanacağını ayarlar. 
+    align-items: center; Nesneler ortalı bir şekilde dikey olarak sıralanırlar.*/
+
+    /*position: Öğenin nasıl konumlandırılacağını belirler. relative: Normal olması gereken pozisyona göre konum 
+   belirlemek*/
+    position: relative;
+}
+
+.container {
+    width: 100%;  /*width: genişlik*/
+    max-width: 114rem; /*114rem, bootstrap'da en çok kullanılan standart bir değer olduğu için biz de kullandık.*/
+    margin: 0 auto; /*0 auto yazarak container'i ortaladık.
+margin: Kenar dışı boşluğu*/
+}
+/**********************AKSESUAR SONU*******************/
+.img-aksesuar {
+	margin: 7px 5px 0px 0;
+	width: 440px;
+	height: 300px;
+	float:left; 
+}
+
+.img-ogretici {
+	margin: 7px 5px 0px 0;
+	width: 440px;
+	height: 300px;
+	float:left; 
+}
+
+/**********************form**********************/
+.map {width:190px; height:247px; margin-top:13px; }
+.map iframe {width:190px; height:247px;}
+dl.adr { margin-top:13px; }
+/* dl.adr dt {} */
+dl.adr dd span { width:70px; display:block; float:left;}
+dl.adr dd {white-space:nowrap;}
+/* dl.adr dd a {} */
+/* dl.adr dd a:hover {} */
+#form { margin: 13px 0 0px 0px; width:610px; }
+
+#form input {
+	border:#fff 1px solid; 
+	background:#fff; 
+	font-size:11px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#000; 
+	padding:7px 10px 7px 18px;
+	outline: medium none;
+	width: 580px; 
+	height:14px; 
+	float:left;
+}
+
+#form textarea {
+	border:#fff 1px solid; 
+	background:#fff; 
+	font-size:11px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#000; 
+	height:173px;
+	outline: medium none;
+	overflow: auto; 
+	padding: 7px 0px 0px 18px;
+	width:590px;
+	resize:none;
+	margin:0px 0 0 0;
+	float:left;
+}
+
+#form label {position:relative;display: block; min-height:35px; overflow:hidden;}
+.btns {text-align:right; overflow:hidden; width:610px; padding-top:10px; }
+.btns a {display:inline-block; margin-left:10px;}
